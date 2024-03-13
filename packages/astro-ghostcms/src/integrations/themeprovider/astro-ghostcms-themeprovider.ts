@@ -61,6 +61,11 @@ export default defineIntegration({
 				});
 
 				injectRoute({
+					pattern: "/test",
+					entrypoint: `${options.theme}/test.astro`,
+				});
+
+				injectRoute({
 					pattern: "/authors",
 					entrypoint: `${options.theme}/authors.astro`,
 				});

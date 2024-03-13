@@ -35,6 +35,7 @@
     "./index.astro": "./src/routes/index.astro",
     "./[slug].astro": "./src/routes/[slug].astro",
     "./tags.astro": "./src/routes/tags.astro",
+    "./test.astro": "./src/routes/test.astro",
     "./authors.astro": "./src/routes/authors.astro",
     "./tag/[slug].astro": "./src/routes/tag/[slug].astro",
     "./author/[slug].astro": "./src/routes/author/[slug].astro",
